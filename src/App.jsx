@@ -1,5 +1,5 @@
-import Header from "./components/Header";
-import Meme from "./components/Meme";
+import Header from "./components/header";
+import Meme from "./components/meme";
 
 export default function App() {
   return (
