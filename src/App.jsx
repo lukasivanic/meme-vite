@@ -1,18 +1,11 @@
-import React from "react";
-import Header from "./components/header";
-import InputForm from "./components/meme";
+import Header from "./components/Header";
+import Meme from "./components/Meme";
 
-function App(){
-  return(
-    <div className="wrapper">
-
-        <Header />
-        <InputForm />
-    
-
+export default function App() {
+  return (
+    <div>
+      <Header />
+      <Meme />
     </div>
-    
-  )
+  );
 }
-
-export default App
