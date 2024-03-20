@@ -1,5 +1,6 @@
-import { createRoot } from "react-dom/client";
-import App from "./App";
+import React from "react";
+import ReactDOM, { createRoot } from "react-dom/client";
+import App from "./App.jsx";
 
 const Root = createRoot(document.getElementById("root"));
 
