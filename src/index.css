@@ -61,10 +61,12 @@ main {
 
 .meme {
   position: relative;
+  display: flex;
 }
 
 .meme--image {
   max-width: 100%;
+  margin: auto;
   border-radius: 3px;
 }
 
